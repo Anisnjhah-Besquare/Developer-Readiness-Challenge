@@ -328,6 +328,22 @@ class _MarketScreenState extends State<MarketScreen> {
                     child: Container(
                       height: 60,
                       child: Center(
+                        // child: ListTile(
+                        //   visualDensity:
+                        //       VisualDensity(horizontal: 0, vertical: -4),
+                        //   horizontalTitleGap: 20.0,
+                        //   leading: Text('Market Name' "         "),
+                        //   trailing: Text(
+                        //     'Display Name',
+                        //     textAlign: TextAlign.center,
+                        //   ),
+                        //   title: Text(
+                        //     '   Price'
+                        //     " ",
+                        //     textAlign: TextAlign.start,
+                        //   ),
+                        // ),
+
                         child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: <Widget>[
